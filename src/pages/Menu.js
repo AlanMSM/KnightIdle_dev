@@ -38,18 +38,18 @@ class Menu extends Component{
                 [e.target.name]: e.target.value
             }
         });
-        // this.imgChange();
+        this.imgChange();
     }
-    // imgChange=e=>{
-    //     if (this.state.form.pClass==="Warrior"){
-    //         classImg="https://wotlkdoc.readthedocs.io/_images/01-Warrior.png";
-    //     }else if(this.state.form.pClass==="Mage"){
-    //         classImg="https://ih1.redbubble.net/image.186491993.2034/st,small,507x507-pad,600x600,f8f8f8.jpg";
-    //     }else if(this.state.form.pClass==="Rogue"){
-    //         classImg="https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Rogue-Guide.png";
-    //     }else{
-    //     }
-    // }
+    imgChange=e=>{
+        if (this.state.form.pClass==="Warrior"){
+            classImg="https://wotlkdoc.readthedocs.io/_images/01-Warrior.png";
+        }else if(this.state.form.pClass==="Mage"){
+            classImg="https://ih1.redbubble.net/image.186491993.2034/st,small,507x507-pad,600x600,f8f8f8.jpg";
+        }else if(this.state.form.pClass==="Rogue"){
+            classImg="https://img.rankedboost.com/wp-content/uploads/2019/05/WoW-Classic-Rogue-Guide.png";
+        }else{
+        }
+    }
 
     // ESTRUCTURA VISUAL
     render(){
