@@ -1,0 +1,62 @@
+.divMain {
+    position:absolute;
+    background-color: #34495e;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.divMain2 {
+    width:85%;
+    height: 80%;
+    padding:40px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background-color:#191919;
+    text-align:center;
+}
+
+.btnLogout{
+    font-size:15px;
+    width:8%;
+    position:absolute;
+    left:85%;
+    top:2%;
+    border:0%;
+    background: none;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    border: 2pt solid #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 25rem;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.labelVarClass{
+    color:white;
+}
+
+.divRadio{
+    font-size:15px;
+    left:10%;
+    top:10%;
+    background:none;
+    margin: auto auto;
+    border:2px #2ecc71 solid;
+    position:absolute;
+    width: 10%;
+    color:white;
+}
+
+.classIcon{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
