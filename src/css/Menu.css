@@ -59,4 +59,6 @@
     position: absolute;
     width: 50%;
     height: 50%;
+    color:white;
+    border: 5px solid red;
 }
